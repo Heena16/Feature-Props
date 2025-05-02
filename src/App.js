@@ -1,12 +1,14 @@
 import Home from "./Pages/Home";
 import './App.css';
+import UserForm from "./Pages/UserForm";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Welcome !!</h1>
-        <Home/>
+        {/* <Home/> */}
+        <UserForm/>
       </header>
     </div>
   );
